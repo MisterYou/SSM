@@ -10,5 +10,5 @@ import java.util.Map;
 @Repository
 public interface TestDao {
 
-     Map findOne(String id);
+    public Map findOne(String id);
 }

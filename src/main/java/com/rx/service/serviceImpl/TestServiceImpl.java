@@ -14,7 +14,7 @@ import java.util.Map;
 public class TestServiceImpl implements TestService{
 
     @Autowired
-    TestDao dao;
+    private TestDao dao;
 
     public Map findOne(String id) {
         return dao.findOne(id);
